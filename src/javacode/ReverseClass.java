@@ -1,0 +1,22 @@
+package javacode;
+
+import java.util.Scanner;
+
+public class ReverseClass {
+
+	public static void main(String[] args) {
+		String str ="ABCD";
+		String rev = "";
+		int len = str.length();//4
+		for(int i = len-1;i>=0;i--) //3 2
+		{
+			rev = rev+str.charAt(i);
+		}
+		
+		System.out.println("Reverse String is:"+ rev);
+		
+        }  
+
+	}
+
+
